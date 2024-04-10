@@ -1,0 +1,31 @@
+body{
+    background: rgb(50, 56, 62);
+    background-color:rgb(50, 56, 62);
+    
+    
+}
+.fondo-categorias{
+    padding-top:5px;
+    padding-left:20px;
+    padding-right: 50px;
+    Color:rgb(0, 0, 0);
+    background-color:rgb(73, 82, 91);
+    border-radius:10px;
+    margin-right:50px;
+    margin-left:50px;
+    margin-top:80px;
+    margin-bottom:20px;}
+div.footer{
+        margin-left: 60px;
+        margin-right: 60px;
+        -webkit-text-fill-color: white;
+    }
+.footer .nav-link.text-body-secondary {
+        color: white !important;}
+.container{
+    margin-top: 5%;
+}   
+.barra-input{
+    border-color: black;
+} 
+    
