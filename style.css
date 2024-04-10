@@ -1,0 +1,207 @@
+body{
+    background: rgb(33,37,41)
+    
+}
+.carousel-item{
+    height: 40rem; 
+    
+}
+.carousel-inner{
+    background: black;
+}
+.d-block{
+    opacity: 0.5;
+    position: center;
+}
+.banner{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color:white;
+    border-bottom-style: solid;
+    border-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    font-family: "Garamond", Times, serif;
+}
+.row{
+    background-color: rgb(61, 69, 77);
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin-top:50px;
+    margin-left:100px;
+    margin-right: 100px;
+    padding-bottom:20px;
+    
+}
+.card{
+    margin-top:20px;
+    height: 100%;
+    
+
+}
+.card-img-top{
+    object-fit: fill;
+    height: 300px;
+    
+}
+.card-body {
+    
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.divider{
+    width: 100%;
+    height: 5rem;
+}
+footer{
+    color:white;
+    -webkit-text-fill-color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; /* Asegura que el encabezado esté encima del contenido */
+}
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black; /* Agrega un borde de 2px de grosor y color negro */
+    border-radius: 5px; /* Agrega esquinas redondeadas */
+    box-sizing: border-box; /* Incluye el borde en el ancho del input */
+}
+.noticias-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para cada noticia */
+.noticia {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.noticia h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.noticia p {
+    margin: 10px 0;
+}
+
+.noticia img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+/* Estilos para el contenedor del perfil */
+.perfil-container {
+    
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 4px solid #ccc;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #291c1c;
+    margin-right: 5%;
+    
+}
+
+.perfil-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Hace la imagen redonda */
+    overflow: hidden; /* Evita que la imagen se desborde */
+    margin: 0 auto 20px;
+}
+
+.perfil-foto img {
+    width: 100%;
+    height: auto;
+}
+
+.perfil-nombre {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.perfil-info {
+    text-align: center;
+    font-size: 16px;
+    flex-grow: 1; /* Aprovecha el espacio restante */
+}
+.opciones {
+    text-align: center;
+}
+
+.opciones a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.opciones a:hover {
+    background-color: #0056b3;
+}
+.opciones-container {
+    .perfil-button{
+        border: 3px solid #080808;
+    }
+    
+    height: 20%;
+    
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid #3b78eb;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 65px;
+    margin-left: 5%;
+    
+    
+}
+.container-inicio{
+    display: flex;
+    margin-top: 5%;
+}
+.perfil-button {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.btn{
+    border: 3px solid rgb(3, 3, 3);
+}
+.card{
+    background-color: #2b2828;
+    .miniatura1{
+        height: 170px;
+        width: 170px;
+        margin-right: 200px;
+        border: 5px solid #000000;
+        margin-top: 5px;
+
+    }
+    font-family: "Garamond", Times, serif;
+}
